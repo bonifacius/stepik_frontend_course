@@ -1,0 +1,110 @@
+body{
+	min-width: 320 px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+
+	
+
+
+
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	color: #FFFFFF;
+}
+
+a: hover{
+	color: 	#CCCCCC;
+}
+
+p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #212529;
+	
+
+}
+
+
+
+header .navbar-brand{
+	
+	font-family: Roboto;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+header.nav-item{
+	font-style: normal;
+	font-size: 16px;
+	
+}
+
+/* в этой части мы прописываем настройки для пунктов меню */
+header .nav-item a::after{
+	content:'';
+	display: block;
+	width: 100%;
+	background-color: #FFFFFF;/*цвет подчеркивания*/ 
+	height: 1px; /* Толщина линии подчеркивающая текст */
+	transform: scale(0); /*transform-scale сужает линию подчеркивания до точки*/
+	transition: all .4s;  /*transition чтобы указать время за которое подчеркивающая линия вернется в исходную при наведении*/
+}
+
+header .nav-item a:hover:after{
+	transform:scale(1); /* transform чтобы устанавить насколько линия возвращается из точки от 0 до 100 %*/
+}
+
+.display-4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 72px;
+	line-height: 84px;
+	color: #212529;
+}
+
+.lead{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #212529;
+}
+
+.card-text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #212529;
+	
+}
+
+.table{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+}
+
+
+.footer {
+    background-color: #F5F5F5;
+    margin-top: 89px;
+    padding-left: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
